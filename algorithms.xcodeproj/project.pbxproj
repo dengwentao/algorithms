@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		445A52771995897B00491393 /* NDistinct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 445A52751995897B00491393 /* NDistinct.cpp */; };
+		445A527A19958AEC00491393 /* RainWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 445A527819958AEC00491393 /* RainWater.cpp */; };
 		448E4B9D1995885B001C72CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 448E4B9C1995885B001C72CE /* main.cpp */; };
 		448E4B9F1995885B001C72CE /* algorithms.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 448E4B9E1995885B001C72CE /* algorithms.1 */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,8 @@
 /* Begin PBXFileReference section */
 		445A52751995897B00491393 /* NDistinct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NDistinct.cpp; sourceTree = "<group>"; };
 		445A52761995897B00491393 /* NDistinct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDistinct.h; sourceTree = "<group>"; };
+		445A527819958AEC00491393 /* RainWater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RainWater.cpp; sourceTree = "<group>"; };
+		445A527919958AEC00491393 /* RainWater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainWater.h; sourceTree = "<group>"; };
 		448E4B991995885B001C72CE /* algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		448E4B9C1995885B001C72CE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		448E4B9E1995885B001C72CE /* algorithms.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = algorithms.1; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				448E4B9E1995885B001C72CE /* algorithms.1 */,
 				445A52751995897B00491393 /* NDistinct.cpp */,
 				445A52761995897B00491393 /* NDistinct.h */,
+				445A527819958AEC00491393 /* RainWater.cpp */,
+				445A527919958AEC00491393 /* RainWater.h */,
 			);
 			path = algorithms;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445A527A19958AEC00491393 /* RainWater.cpp in Sources */,
 				445A52771995897B00491393 /* NDistinct.cpp in Sources */,
 				448E4B9D1995885B001C72CE /* main.cpp in Sources */,
 			);
