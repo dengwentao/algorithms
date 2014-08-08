@@ -68,8 +68,9 @@ void DistinctN(const char* s, int n)
     cout << endl;
 }
 
-int main()
+int mainx()
 {
     const char * s =  "Hello world!";
     DistinctN(s, 4);
+    return 0;
 }
