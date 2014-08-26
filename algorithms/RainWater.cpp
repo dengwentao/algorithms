@@ -12,7 +12,7 @@ using namespace std;
 #include <assert.h>
 #include "RainWater.h"
 
-int main()
+int mainy()
 {
     int board[] = {3, 14, 5, 4, 9, 2, 3, 5, 2, 11};
     int size = sizeof(board)/sizeof(board[0]);
