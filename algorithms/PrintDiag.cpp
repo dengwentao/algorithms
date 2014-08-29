@@ -45,7 +45,7 @@ int PrintSpiral(int x)
     return 0;
 }
 
-int main()
+int main4()
 {
     cout << "Print matrix in diag" << endl;
     for(int i=0; i<M; i++)
