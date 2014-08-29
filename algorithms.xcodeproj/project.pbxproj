@@ -12,7 +12,7 @@
 		44722F7319ACFBF7000ADA4D /* PrintDiag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44722F7119ACFBF7000ADA4D /* PrintDiag.cpp */; };
 		44722F7619AD2EDB000ADA4D /* Parenthesis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44722F7419AD2EDB000ADA4D /* Parenthesis.cpp */; };
 		448E4B9D1995885B001C72CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 448E4B9C1995885B001C72CE /* main.cpp */; };
-		448E4B9F1995885B001C72CE /* algorithms.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 448E4B9E1995885B001C72CE /* algorithms.1 */; };
+		44B4A1BB19B12F0900910A4C /* triplets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B4A1B919B12F0900910A4C /* triplets.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,7 +22,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				448E4B9F1995885B001C72CE /* algorithms.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -39,7 +38,8 @@
 		44722F7519AD2EDB000ADA4D /* Parenthesis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parenthesis.h; sourceTree = "<group>"; };
 		448E4B991995885B001C72CE /* algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		448E4B9C1995885B001C72CE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		448E4B9E1995885B001C72CE /* algorithms.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = algorithms.1; sourceTree = "<group>"; };
+		44B4A1B919B12F0900910A4C /* triplets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = triplets.cpp; path = ../triplets.cpp; sourceTree = "<group>"; };
+		44B4A1BA19B12F0900910A4C /* triplets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = triplets.h; path = ../triplets.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +72,9 @@
 		448E4B9B1995885B001C72CE /* algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				44B4A1B919B12F0900910A4C /* triplets.cpp */,
+				44B4A1BA19B12F0900910A4C /* triplets.h */,
 				448E4B9C1995885B001C72CE /* main.cpp */,
-				448E4B9E1995885B001C72CE /* algorithms.1 */,
 				445A52751995897B00491393 /* NDistinct.cpp */,
 				445A52761995897B00491393 /* NDistinct.h */,
 				445A527819958AEC00491393 /* RainWater.cpp */,
@@ -139,6 +140,7 @@
 			files = (
 				44722F7319ACFBF7000ADA4D /* PrintDiag.cpp in Sources */,
 				445A527A19958AEC00491393 /* RainWater.cpp in Sources */,
+				44B4A1BB19B12F0900910A4C /* triplets.cpp in Sources */,
 				445A52771995897B00491393 /* NDistinct.cpp in Sources */,
 				448E4B9D1995885B001C72CE /* main.cpp in Sources */,
 				44722F7619AD2EDB000ADA4D /* Parenthesis.cpp in Sources */,

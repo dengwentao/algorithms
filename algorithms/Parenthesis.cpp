@@ -73,7 +73,7 @@ void PrintParenthesis()
     }
 }
 
-int main()
+int mainp()
 {
     PrintParenthesis();
     return 0;
