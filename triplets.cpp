@@ -151,7 +151,7 @@ void printFrequency(int* a, int size)
     cout << endl;
 }
 
-int main()
+int mainT()
 {
     srand(time(NULL));
     int f[26] = {0};
@@ -180,4 +180,5 @@ int main()
     std::string secondpart = getfirst(t, m); // The frequency table is symetric, so reuse the same function, but the output is reversed.
     std::string result = firstpart + secondpart[1] + secondpart[0];
     std::cout << result <<"\n";
+    return 0;
 }
