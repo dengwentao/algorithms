@@ -121,7 +121,7 @@ float putBall(int col, int target)
     return P[R][target];
 }
 
-int main()
+int mainPeg()
 {
     initPegs();
     setMissing();
@@ -145,5 +145,5 @@ int main()
         }
     }
     cout << "Input from column " << col << " with max probability " << max << endl;
-    
+    return 0;
 }
