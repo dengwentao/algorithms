@@ -5,6 +5,8 @@
 //  Created by Wentao Deng on 9/8/14.
 //  Copyright (c) 2014 WENTAO INC. All rights reserved.
 //
+// Output 2 BST in sorted order.
+// Space limit O(lgM+lgN).
 
 #include <iostream>
 #include <stack>
@@ -48,7 +50,7 @@ int Bst::getNext()
 
 
 
-int main()
+int mainBST()
 {
     Node* pRoot = new Node(11);
     pRoot->pLeft = new Node(7);
