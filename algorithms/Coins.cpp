@@ -27,7 +27,7 @@ int ways(int m, int n)
     return ways(m, n-S[m]) + ways(m+1, n);
 }
 
-int main()
+int mainCoins()
 {
     cout << ways(0, 5) << endl;
     return 0;

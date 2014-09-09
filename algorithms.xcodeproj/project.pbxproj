@@ -15,6 +15,7 @@
 		44B0290919B6675E003DFA84 /* Pegs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B0290719B6675E003DFA84 /* Pegs.cpp */; };
 		44B0290C19BE1745003DFA84 /* MergeBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B0290A19BE1745003DFA84 /* MergeBST.cpp */; };
 		44B25EAD19BE4FB000554C90 /* Coins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B25EAB19BE4FB000554C90 /* Coins.cpp */; };
+		44B25EB019BE70BB00554C90 /* LargestBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B25EAE19BE70BB00554C90 /* LargestBST.cpp */; };
 		44B4A1BB19B12F0900910A4C /* triplets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B4A1B919B12F0900910A4C /* triplets.cpp */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,8 @@
 		44B0290B19BE1745003DFA84 /* MergeBST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeBST.h; sourceTree = "<group>"; };
 		44B25EAB19BE4FB000554C90 /* Coins.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Coins.cpp; sourceTree = "<group>"; };
 		44B25EAC19BE4FB000554C90 /* Coins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coins.h; sourceTree = "<group>"; };
+		44B25EAE19BE70BB00554C90 /* LargestBST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LargestBST.cpp; sourceTree = "<group>"; };
+		44B25EAF19BE70BB00554C90 /* LargestBST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LargestBST.h; sourceTree = "<group>"; };
 		44B4A1B919B12F0900910A4C /* triplets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = triplets.cpp; path = ../triplets.cpp; sourceTree = "<group>"; };
 		44B4A1BA19B12F0900910A4C /* triplets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = triplets.h; path = ../triplets.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,6 +101,8 @@
 				44B0290B19BE1745003DFA84 /* MergeBST.h */,
 				44B25EAB19BE4FB000554C90 /* Coins.cpp */,
 				44B25EAC19BE4FB000554C90 /* Coins.h */,
+				44B25EAE19BE70BB00554C90 /* LargestBST.cpp */,
+				44B25EAF19BE70BB00554C90 /* LargestBST.h */,
 			);
 			path = algorithms;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 				44B0290919B6675E003DFA84 /* Pegs.cpp in Sources */,
 				44B0290C19BE1745003DFA84 /* MergeBST.cpp in Sources */,
 				44B25EAD19BE4FB000554C90 /* Coins.cpp in Sources */,
+				44B25EB019BE70BB00554C90 /* LargestBST.cpp in Sources */,
 				44722F7619AD2EDB000ADA4D /* Parenthesis.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
