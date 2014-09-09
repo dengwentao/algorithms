@@ -50,18 +50,22 @@ int countBst(Node* pRoot, int min, int max)
 // This is for another similar problem.
 // This problem requires BST to have all its descendants.
 int max_subtree_count = 0;
-bool isBst(Node* pRoot, int min, int max, int& count)
+bool isBst(Node* pRoot, int& min, int& max, int& count)
 {
     count = 0;
     if(!pRoot)
         return true;
-    int count_left = 0;
-    int count_right = 0;
-    if(pRoot->value >= min && pRoot->value <= max
-       && isBst(pRoot->pLeft, min, pRoot->value, count_left)
-       && isBst(pRoot->pRight, pRoot->value, max, count_right))
+    cout << "Visited node " << pRoot->value << endl;
+    
+    int lMin=0, lMax=0, rMin=0, rMax=0, lCount=0, rCount=0;
+    lMin = lMax = rMin = rMax = pRoot->value;
+    if(isBst(pRoot->pLeft, lMin, lMax, lCount)
+       && isBst(pRoot->pRight, rMin, rMax, rCount)
+       && pRoot->value >= lMax && pRoot->value <= rMin)
     {
-        count = count_left + count_right + 1;
+        min = lMin;
+        max = rMax;
+        count = lCount + rCount + 1;
         if(count > max_subtree_count)
         {
             max_subtree_count = count;
@@ -71,12 +75,7 @@ bool isBst(Node* pRoot, int min, int max, int& count)
     }
     else
     {
-        isBst(pRoot->pLeft, INT_MIN, INT_MAX, count_left);
-        if(count_left > max_subtree_count)
-            max_subtree_count = count_left;
-        isBst(pRoot->pRight, INT_MIN, INT_MAX, count_right);
-        if(count_right > max_subtree_count)
-            max_subtree_count = count_right;
+        // we don't need to go upper if this subtree is not BST.
         return false;
     }
 }
@@ -86,7 +85,7 @@ int main()
     Node* pRoot = new Node(15);
     pRoot->pLeft = new Node(10);
     pRoot->pRight = new Node(20);
-    pRoot->pLeft->pLeft = new Node(5);
+    pRoot->pLeft->pLeft = new Node(6);
     pRoot->pLeft->pRight = new Node(7);
     pRoot->pLeft->pRight->pLeft = new Node(2);
     pRoot->pLeft->pRight->pLeft->pLeft = new Node(0);
@@ -98,7 +97,8 @@ int main()
     cout << "Root total count is " << MAX_COUNT << endl;
     
     int count = 0;
-    isBst(pRoot, INT_MIN, INT_MAX, count);
+    int min=INT_MIN, max=INT_MAX;
+    isBst(pRoot, min, max, count);
     
     return 0;
 }
