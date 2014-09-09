@@ -59,9 +59,10 @@ bool isBst(Node* pRoot, int& min, int& max, int& count)
     
     int lMin=0, lMax=0, rMin=0, rMax=0, lCount=0, rCount=0;
     lMin = lMax = rMin = rMax = pRoot->value;
-    if(isBst(pRoot->pLeft, lMin, lMax, lCount)
-       && isBst(pRoot->pRight, rMin, rMax, rCount)
-       && pRoot->value >= lMax && pRoot->value <= rMin)
+    // we cannot use && to shortcut because largest subtree could be on either side.
+    bool bLeft = isBst(pRoot->pLeft, lMin, lMax, lCount);
+    bool bRight = isBst(pRoot->pRight, rMin, rMax, rCount);
+    if(bLeft && bRight && pRoot->value >= lMax && pRoot->value <= rMin)
     {
         min = lMin;
         max = rMax;
