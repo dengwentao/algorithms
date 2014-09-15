@@ -81,7 +81,7 @@ bool isBst(Node* pRoot, int& min, int& max, int& count)
     }
 }
 
-int main()
+int mainLargetBST()
 {
     Node* pRoot = new Node(15);
     pRoot->pLeft = new Node(10);

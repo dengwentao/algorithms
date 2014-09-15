@@ -17,6 +17,8 @@
 		44B25EAD19BE4FB000554C90 /* Coins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B25EAB19BE4FB000554C90 /* Coins.cpp */; };
 		44B25EB019BE70BB00554C90 /* LargestBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B25EAE19BE70BB00554C90 /* LargestBST.cpp */; };
 		44B4A1BB19B12F0900910A4C /* triplets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B4A1B919B12F0900910A4C /* triplets.cpp */; };
+		44CDEECF19C0B9F30091605A /* MaxGapIncr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44CDEECD19C0B9F30091605A /* MaxGapIncr.cpp */; };
+		44CDEED219C767CA0091605A /* Maze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44CDEED019C767CA0091605A /* Maze.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +54,10 @@
 		44B25EAF19BE70BB00554C90 /* LargestBST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LargestBST.h; sourceTree = "<group>"; };
 		44B4A1B919B12F0900910A4C /* triplets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = triplets.cpp; path = ../triplets.cpp; sourceTree = "<group>"; };
 		44B4A1BA19B12F0900910A4C /* triplets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = triplets.h; path = ../triplets.h; sourceTree = "<group>"; };
+		44CDEECD19C0B9F30091605A /* MaxGapIncr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaxGapIncr.cpp; sourceTree = "<group>"; };
+		44CDEECE19C0B9F30091605A /* MaxGapIncr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxGapIncr.h; sourceTree = "<group>"; };
+		44CDEED019C767CA0091605A /* Maze.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Maze.cpp; sourceTree = "<group>"; };
+		44CDEED119C767CA0091605A /* Maze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Maze.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,10 @@
 				44B25EAC19BE4FB000554C90 /* Coins.h */,
 				44B25EAE19BE70BB00554C90 /* LargestBST.cpp */,
 				44B25EAF19BE70BB00554C90 /* LargestBST.h */,
+				44CDEECD19C0B9F30091605A /* MaxGapIncr.cpp */,
+				44CDEECE19C0B9F30091605A /* MaxGapIncr.h */,
+				44CDEED019C767CA0091605A /* Maze.cpp */,
+				44CDEED119C767CA0091605A /* Maze.h */,
 			);
 			path = algorithms;
 			sourceTree = "<group>";
@@ -161,8 +171,10 @@
 				44722F7319ACFBF7000ADA4D /* PrintDiag.cpp in Sources */,
 				445A527A19958AEC00491393 /* RainWater.cpp in Sources */,
 				44B4A1BB19B12F0900910A4C /* triplets.cpp in Sources */,
+				44CDEECF19C0B9F30091605A /* MaxGapIncr.cpp in Sources */,
 				445A52771995897B00491393 /* NDistinct.cpp in Sources */,
 				448E4B9D1995885B001C72CE /* main.cpp in Sources */,
+				44CDEED219C767CA0091605A /* Maze.cpp in Sources */,
 				44B0290919B6675E003DFA84 /* Pegs.cpp in Sources */,
 				44B0290C19BE1745003DFA84 /* MergeBST.cpp in Sources */,
 				44B25EAD19BE4FB000554C90 /* Coins.cpp in Sources */,
