@@ -36,7 +36,7 @@ int Way(int row, int col)
     return Maze[row][col];
 }
 
-int main()
+int mainMaze()
 {
     initMaze();
     cout << Way(0, 0) << endl;
