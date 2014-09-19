@@ -71,7 +71,7 @@ void PostTrav(Node* pRoot, bool rightEdge)
         cout << pRoot->value << ' ';
 }
 
-int main()
+int mainEdge()
 {
     Node* pRoot = initTree();
     cout << pRoot->value << ' ';

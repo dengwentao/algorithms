@@ -20,6 +20,7 @@
 		44CDEECF19C0B9F30091605A /* MaxGapIncr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44CDEECD19C0B9F30091605A /* MaxGapIncr.cpp */; };
 		44CDEED219C767CA0091605A /* Maze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44CDEED019C767CA0091605A /* Maze.cpp */; };
 		44CDEED519C7891A0091605A /* BiTreeEdges.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44CDEED319C7891A0091605A /* BiTreeEdges.cpp */; };
+		44CDEED819CB989C0091605A /* CloneGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44CDEED619CB989C0091605A /* CloneGraph.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +62,8 @@
 		44CDEED119C767CA0091605A /* Maze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Maze.h; sourceTree = "<group>"; };
 		44CDEED319C7891A0091605A /* BiTreeEdges.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BiTreeEdges.cpp; sourceTree = "<group>"; };
 		44CDEED419C7891A0091605A /* BiTreeEdges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BiTreeEdges.h; sourceTree = "<group>"; };
+		44CDEED619CB989C0091605A /* CloneGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CloneGraph.cpp; sourceTree = "<group>"; };
+		44CDEED719CB989C0091605A /* CloneGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloneGraph.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				44CDEED119C767CA0091605A /* Maze.h */,
 				44CDEED319C7891A0091605A /* BiTreeEdges.cpp */,
 				44CDEED419C7891A0091605A /* BiTreeEdges.h */,
+				44CDEED619CB989C0091605A /* CloneGraph.cpp */,
+				44CDEED719CB989C0091605A /* CloneGraph.h */,
 			);
 			path = algorithms;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				445A527A19958AEC00491393 /* RainWater.cpp in Sources */,
 				44B4A1BB19B12F0900910A4C /* triplets.cpp in Sources */,
 				44CDEECF19C0B9F30091605A /* MaxGapIncr.cpp in Sources */,
+				44CDEED819CB989C0091605A /* CloneGraph.cpp in Sources */,
 				44CDEED519C7891A0091605A /* BiTreeEdges.cpp in Sources */,
 				445A52771995897B00491393 /* NDistinct.cpp in Sources */,
 				448E4B9D1995885B001C72CE /* main.cpp in Sources */,

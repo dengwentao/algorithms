@@ -10,29 +10,29 @@
 	<string>algorithms</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>50F7CF38-8501-477B-B91D-33CFA1E2D210</key>
+		<key>C5C8EF93C5C08D2E89C0C6541AC90FD4322EE57E</key>
 		<string>https://github.com/dengwentao/algorithms.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>algorithms.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>50F7CF38-8501-477B-B91D-33CFA1E2D210</key>
+		<key>C5C8EF93C5C08D2E89C0C6541AC90FD4322EE57E</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/dengwentao/algorithms.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>50F7CF38-8501-477B-B91D-33CFA1E2D210</string>
+	<string>C5C8EF93C5C08D2E89C0C6541AC90FD4322EE57E</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>50F7CF38-8501-477B-B91D-33CFA1E2D210</string>
+			<string>C5C8EF93C5C08D2E89C0C6541AC90FD4322EE57E</string>
 			<key>IDESourceControlWCCName</key>
 			<string>algorithms</string>
 		</dict>
