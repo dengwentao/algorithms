@@ -103,7 +103,7 @@ Graph* Graph::Clone()
     return g;
 }
 
-int main()
+int mainCloneGrp()
 {
     Graph* g = new Graph();
     g->Init();
