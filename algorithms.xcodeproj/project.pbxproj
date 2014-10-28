@@ -13,6 +13,7 @@
 		44722F7619AD2EDB000ADA4D /* Parenthesis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44722F7419AD2EDB000ADA4D /* Parenthesis.cpp */; };
 		448E4B9D1995885B001C72CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 448E4B9C1995885B001C72CE /* main.cpp */; };
 		44A99FAE19F9AFBE000314DA /* painters2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44A99FAD19F9AFBE000314DA /* painters2.cpp */; };
+		44A99FB01A0001EF000314DA /* MedianOf2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44A99FAF1A0001EF000314DA /* MedianOf2.cpp */; };
 		44B0290919B6675E003DFA84 /* Pegs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B0290719B6675E003DFA84 /* Pegs.cpp */; };
 		44B0290C19BE1745003DFA84 /* MergeBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B0290A19BE1745003DFA84 /* MergeBST.cpp */; };
 		44B25EAD19BE4FB000554C90 /* Coins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B25EAB19BE4FB000554C90 /* Coins.cpp */; };
@@ -50,6 +51,7 @@
 		448E4B991995885B001C72CE /* algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		448E4B9C1995885B001C72CE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		44A99FAD19F9AFBE000314DA /* painters2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = painters2.cpp; sourceTree = "<group>"; };
+		44A99FAF1A0001EF000314DA /* MedianOf2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MedianOf2.cpp; sourceTree = "<group>"; };
 		44B0290719B6675E003DFA84 /* Pegs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pegs.cpp; sourceTree = "<group>"; };
 		44B0290819B6675E003DFA84 /* Pegs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pegs.h; sourceTree = "<group>"; };
 		44B0290A19BE1745003DFA84 /* MergeBST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeBST.cpp; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				44D583F219CCDBF1005A6CFD /* test.cpp */,
 				44D583F419CCF856005A6CFD /* Painter.cpp */,
 				44A99FAD19F9AFBE000314DA /* painters2.cpp */,
+				44A99FAF1A0001EF000314DA /* MedianOf2.cpp */,
 			);
 			path = algorithms;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				44CDEED219C767CA0091605A /* Maze.cpp in Sources */,
 				44B0290919B6675E003DFA84 /* Pegs.cpp in Sources */,
 				44B0290C19BE1745003DFA84 /* MergeBST.cpp in Sources */,
+				44A99FB01A0001EF000314DA /* MedianOf2.cpp in Sources */,
 				44B25EAD19BE4FB000554C90 /* Coins.cpp in Sources */,
 				44B25EB019BE70BB00554C90 /* LargestBST.cpp in Sources */,
 				44722F7619AD2EDB000ADA4D /* Parenthesis.cpp in Sources */,

@@ -55,7 +55,7 @@ int painters(int m)
     return c;
 }
 
-int main()
+int mainP2()
 {
     int low = max();
     int high = sum();
