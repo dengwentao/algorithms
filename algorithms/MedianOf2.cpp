@@ -98,7 +98,8 @@ int MedOf2(int A[], int a1, int a2, int B[], int b1, int b2)
         return medA;
 }
 
-int main()
+int mainMed2()
 {
     cout << MedOf2(AA, 0, SIZE_A-1, BB, 0, SIZE_B-1)<<endl;
+    return 0;
 }

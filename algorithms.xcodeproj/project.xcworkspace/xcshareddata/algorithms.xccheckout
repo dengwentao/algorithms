@@ -14,7 +14,7 @@
 		<string>https://github.com/dengwentao/algorithms.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>algorithms.xcodeproj/project.xcworkspace</string>
+	<string>algorithms.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>C5C8EF93C5C08D2E89C0C6541AC90FD4322EE57E</key>
