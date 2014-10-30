@@ -45,7 +45,7 @@ bool IsRepeated(const char* s)
     return false; //q points to end, then there's no pattern.
 }
 
-int main()
+int mainRepeated()
 {
     const char* s = "abab"; //"aacaaaacaa"; //"aaaa" // "abaaba" //"aab" // "a" //"abc", //"abab"
     cout << IsRepeated(s) << endl;
