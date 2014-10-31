@@ -11,7 +11,6 @@
 #include <stack>
 using namespace std;
 #include <assert.h>
-#include "MergeBST.h"
 
 struct Node
 {
@@ -65,7 +64,7 @@ int Bst::InOrderFirst(Node* pNode)
         return InOrderFirst(pNode->pLeft);
 }
 
-int main()
+int mainNextBig()
 {
     Node* pRoot = new Node(11);
     pRoot->pLeft = new Node(7);

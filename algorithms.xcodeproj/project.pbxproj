@@ -27,6 +27,7 @@
 		44D583F519CCF856005A6CFD /* Painter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44D583F419CCF856005A6CFD /* Painter.cpp */; };
 		44D79AF41A01680B0001BF1B /* IsRepeated.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44D79AF31A01680B0001BF1B /* IsRepeated.cpp */; };
 		44D79AF61A02C3BF0001BF1B /* NextBiggerNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44D79AF51A02C3BF0001BF1B /* NextBiggerNode.cpp */; };
+		44D79AF81A040D980001BF1B /* SlideWinMax.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44D79AF71A040D980001BF1B /* SlideWinMax.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -76,6 +77,7 @@
 		44D583F419CCF856005A6CFD /* Painter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Painter.cpp; sourceTree = "<group>"; };
 		44D79AF31A01680B0001BF1B /* IsRepeated.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IsRepeated.cpp; sourceTree = "<group>"; };
 		44D79AF51A02C3BF0001BF1B /* NextBiggerNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NextBiggerNode.cpp; sourceTree = "<group>"; };
+		44D79AF71A040D980001BF1B /* SlideWinMax.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SlideWinMax.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				44A99FAF1A0001EF000314DA /* MedianOf2.cpp */,
 				44D79AF31A01680B0001BF1B /* IsRepeated.cpp */,
 				44D79AF51A02C3BF0001BF1B /* NextBiggerNode.cpp */,
+				44D79AF71A040D980001BF1B /* SlideWinMax.cpp */,
 			);
 			path = algorithms;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				445A52771995897B00491393 /* NDistinct.cpp in Sources */,
 				44D79AF41A01680B0001BF1B /* IsRepeated.cpp in Sources */,
 				448E4B9D1995885B001C72CE /* main.cpp in Sources */,
+				44D79AF81A040D980001BF1B /* SlideWinMax.cpp in Sources */,
 				44D583F319CCDBF1005A6CFD /* test.cpp in Sources */,
 				44A99FAE19F9AFBE000314DA /* painters2.cpp in Sources */,
 				44CDEED219C767CA0091605A /* Maze.cpp in Sources */,
