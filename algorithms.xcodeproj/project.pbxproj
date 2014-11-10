@@ -28,6 +28,11 @@
 		44D79AF41A01680B0001BF1B /* IsRepeated.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44D79AF31A01680B0001BF1B /* IsRepeated.cpp */; };
 		44D79AF61A02C3BF0001BF1B /* NextBiggerNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44D79AF51A02C3BF0001BF1B /* NextBiggerNode.cpp */; };
 		44D79AF81A040D980001BF1B /* SlideWinMax.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44D79AF71A040D980001BF1B /* SlideWinMax.cpp */; };
+		44D79AFA1A05A9780001BF1B /* RotateArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44D79AF91A05A9780001BF1B /* RotateArray.cpp */; };
+		44D79AFC1A06D5760001BF1B /* IntersectSortedArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44D79AFB1A06D5760001BF1B /* IntersectSortedArrays.cpp */; };
+		44D79AFE1A06FBF50001BF1B /* BiTreeNodeNext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44D79AFD1A06FBF50001BF1B /* BiTreeNodeNext.cpp */; };
+		44D79B001A0707170001BF1B /* CountWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44D79AFF1A0707170001BF1B /* CountWords.cpp */; };
+		44D79B021A0813510001BF1B /* MaxSubMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44D79B011A0813510001BF1B /* MaxSubMatrix.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -78,6 +83,11 @@
 		44D79AF31A01680B0001BF1B /* IsRepeated.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IsRepeated.cpp; sourceTree = "<group>"; };
 		44D79AF51A02C3BF0001BF1B /* NextBiggerNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NextBiggerNode.cpp; sourceTree = "<group>"; };
 		44D79AF71A040D980001BF1B /* SlideWinMax.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SlideWinMax.cpp; sourceTree = "<group>"; };
+		44D79AF91A05A9780001BF1B /* RotateArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RotateArray.cpp; sourceTree = "<group>"; };
+		44D79AFB1A06D5760001BF1B /* IntersectSortedArrays.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntersectSortedArrays.cpp; sourceTree = "<group>"; };
+		44D79AFD1A06FBF50001BF1B /* BiTreeNodeNext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BiTreeNodeNext.cpp; sourceTree = "<group>"; };
+		44D79AFF1A0707170001BF1B /* CountWords.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CountWords.cpp; sourceTree = "<group>"; };
+		44D79B011A0813510001BF1B /* MaxSubMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaxSubMatrix.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +154,11 @@
 				44D79AF31A01680B0001BF1B /* IsRepeated.cpp */,
 				44D79AF51A02C3BF0001BF1B /* NextBiggerNode.cpp */,
 				44D79AF71A040D980001BF1B /* SlideWinMax.cpp */,
+				44D79AF91A05A9780001BF1B /* RotateArray.cpp */,
+				44D79AFB1A06D5760001BF1B /* IntersectSortedArrays.cpp */,
+				44D79AFD1A06FBF50001BF1B /* BiTreeNodeNext.cpp */,
+				44D79AFF1A0707170001BF1B /* CountWords.cpp */,
+				44D79B011A0813510001BF1B /* MaxSubMatrix.cpp */,
 			);
 			path = algorithms;
 			sourceTree = "<group>";
@@ -202,19 +217,24 @@
 				44722F7319ACFBF7000ADA4D /* PrintDiag.cpp in Sources */,
 				445A527A19958AEC00491393 /* RainWater.cpp in Sources */,
 				44B4A1BB19B12F0900910A4C /* triplets.cpp in Sources */,
+				44D79AFE1A06FBF50001BF1B /* BiTreeNodeNext.cpp in Sources */,
 				44CDEECF19C0B9F30091605A /* MaxGapIncr.cpp in Sources */,
 				44D79AF61A02C3BF0001BF1B /* NextBiggerNode.cpp in Sources */,
 				44CDEED819CB989C0091605A /* CloneGraph.cpp in Sources */,
 				44CDEED519C7891A0091605A /* BiTreeEdges.cpp in Sources */,
 				445A52771995897B00491393 /* NDistinct.cpp in Sources */,
+				44D79B001A0707170001BF1B /* CountWords.cpp in Sources */,
 				44D79AF41A01680B0001BF1B /* IsRepeated.cpp in Sources */,
 				448E4B9D1995885B001C72CE /* main.cpp in Sources */,
 				44D79AF81A040D980001BF1B /* SlideWinMax.cpp in Sources */,
 				44D583F319CCDBF1005A6CFD /* test.cpp in Sources */,
 				44A99FAE19F9AFBE000314DA /* painters2.cpp in Sources */,
+				44D79AFC1A06D5760001BF1B /* IntersectSortedArrays.cpp in Sources */,
 				44CDEED219C767CA0091605A /* Maze.cpp in Sources */,
+				44D79AFA1A05A9780001BF1B /* RotateArray.cpp in Sources */,
 				44B0290919B6675E003DFA84 /* Pegs.cpp in Sources */,
 				44B0290C19BE1745003DFA84 /* MergeBST.cpp in Sources */,
+				44D79B021A0813510001BF1B /* MaxSubMatrix.cpp in Sources */,
 				44A99FB01A0001EF000314DA /* MedianOf2.cpp in Sources */,
 				44B25EAD19BE4FB000554C90 /* Coins.cpp in Sources */,
 				44B25EB019BE70BB00554C90 /* LargestBST.cpp in Sources */,

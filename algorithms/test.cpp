@@ -8,55 +8,80 @@
 
 #include <iostream>
 #include <vector>
-#include <map>
+#include <unordered_set>
+#include <string>
 using namespace std;
 #include <assert.h>
 
-typedef unsigned int uint;
-uint swapBits(uint x, uint i, uint j) {
-    uint lo = ((x >> i) & 1);
-    uint hi = ((x >> j) & 1);
-    if (lo ^ hi) {
-        x ^= ((1U << i) | (1U << j));
-    }
-    return x;
-}
+//Write a function that takes in a sentence, and returns the words that repeat.
 
-uint reverseXor(uint x) {
-    uint n = sizeof(x) * 8;
-    for (uint i = 0; i < n/2; i++) {
-        x = swapBits(x, i, n-i-1);
-    }
-    return x;
-}
-
-void swap(unsigned int& x, int i, int j)
+enum State {start, word, space};
+vector<string> GetAllWords(const string& s)
 {
-    unsigned int a = x & (0x1<<i);
-    unsigned int b = x & (0x1<<j);
-    if(a^b)
+    vector<string> result;
+    State st = start;
+    const char* p = s.c_str();
+    const char* q = p;
+    while(*p)
     {
-        x = (x ^ (0x1<<i)) ^ (0x1<<j);
+        switch(st)
+        {
+            case start:
+                if(isalpha(*p))
+                    st = word;
+                else
+                    st = space;
+                break;
+            case word:
+                if(!isalpha(*p))
+                {
+                    st = space;
+                    string s;
+                    while(q!=p)
+                    {
+                        s.push_back(*q);
+                        q++;
+                    }
+                    result.push_back(s);//chars between p and q
+                }
+                break;
+            case space:
+                if(isalpha(*p))
+                {
+                    st = word;
+                    q = p;
+                }
+                break;
+        }
+        p++;
     }
+    return result;
 }
 
-unsigned int rev(unsigned int x)
+unordered_set<string> FindRepeatedWords(const string& s)
 {
-    int n = sizeof(x)*8;//how many bits
-    for(int i=0; i<n/2; i++)
+    unordered_set<string> words;
+    unordered_set<string> result;
+    vector<string> v = GetAllWords(s);
+    for(vector<string>::const_iterator it=v.begin(); it!=v.end(); ++it)
     {
-        swap(x, i, n-i-1);
+        if(words.find(*it)!=words.end())
+        {
+            result.insert(*it);
+        }
+        else
+        {
+            words.insert(*it);
+        }
     }
-    return x;
+    return result;
 }
 
 int mainXX()
 {
-    unsigned int x = 567;
-    unsigned int y = reverseXor(x);
-    unsigned int z = rev(x);
-    cout << x << ' ' << y << ' ' << z << endl;
-    
-    
+    string s = "I know, I know. Hello is not a hello but a hell, you know?";
+    unordered_set<string> rep = FindRepeatedWords(s);
+    for(unordered_set<string>::const_iterator it=rep.begin(); it!=rep.end(); ++it)
+        cout << *it << endl;
     return 0;
 }
