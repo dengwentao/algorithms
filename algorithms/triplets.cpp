@@ -12,7 +12,6 @@
 #include <string>
 using namespace std;
 #include <time.h>
-#include "triplets.h"
 
 // ramdomly generate one tripplet.
 std::string triplet()
