@@ -19,6 +19,7 @@
 		44AA00401A119B71004DEE20 /* triplets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AA003F1A119B71004DEE20 /* triplets.cpp */; };
 		44AA00421A12966A004DEE20 /* MaxCommonSubString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AA00411A12966A004DEE20 /* MaxCommonSubString.cpp */; };
 		44AA00441A12BD8D004DEE20 /* PathBetweenTwoWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AA00431A12BD8D004DEE20 /* PathBetweenTwoWords.cpp */; };
+		44AA00461A12EABB004DEE20 /* RangeOfDups.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AA00451A12EABB004DEE20 /* RangeOfDups.cpp */; };
 		44B0290919B6675E003DFA84 /* Pegs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B0290719B6675E003DFA84 /* Pegs.cpp */; };
 		44B0290C19BE1745003DFA84 /* MergeBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B0290A19BE1745003DFA84 /* MergeBST.cpp */; };
 		44B25EAD19BE4FB000554C90 /* Coins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B25EAB19BE4FB000554C90 /* Coins.cpp */; };
@@ -69,6 +70,7 @@
 		44AA003F1A119B71004DEE20 /* triplets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = triplets.cpp; sourceTree = "<group>"; };
 		44AA00411A12966A004DEE20 /* MaxCommonSubString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaxCommonSubString.cpp; sourceTree = "<group>"; };
 		44AA00431A12BD8D004DEE20 /* PathBetweenTwoWords.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PathBetweenTwoWords.cpp; sourceTree = "<group>"; };
+		44AA00451A12EABB004DEE20 /* RangeOfDups.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RangeOfDups.cpp; sourceTree = "<group>"; };
 		44B0290719B6675E003DFA84 /* Pegs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pegs.cpp; sourceTree = "<group>"; };
 		44B0290819B6675E003DFA84 /* Pegs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pegs.h; sourceTree = "<group>"; };
 		44B0290A19BE1745003DFA84 /* MergeBST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeBST.cpp; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				44AA003D1A1192D1004DEE20 /* GameOfLife.cpp */,
 				44AA00411A12966A004DEE20 /* MaxCommonSubString.cpp */,
 				44AA00431A12BD8D004DEE20 /* PathBetweenTwoWords.cpp */,
+				44AA00451A12EABB004DEE20 /* RangeOfDups.cpp */,
 			);
 			path = algorithms;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				44B25EAD19BE4FB000554C90 /* Coins.cpp in Sources */,
 				44B25EB019BE70BB00554C90 /* LargestBST.cpp in Sources */,
 				44722F7619AD2EDB000ADA4D /* Parenthesis.cpp in Sources */,
+				44AA00461A12EABB004DEE20 /* RangeOfDups.cpp in Sources */,
 				44D583F519CCF856005A6CFD /* Painter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

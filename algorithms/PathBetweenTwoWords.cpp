@@ -125,7 +125,7 @@ void PrintPath(const string& start, const string& end)
         cout << "No such path." << endl;
 }
 
-int main()
+int mainPath()
 {
     string start = "dog";
     string end = "cat";
@@ -141,4 +141,5 @@ int main()
     //    cout << *it << endl;
     //}
     PrintPath(start, end);
+    return 0;
 }
