@@ -155,7 +155,7 @@ int GameOfLife::neighbors(int i, int j)
     return count;
 }
 
-int main()
+int mainLife()
 {
     GameOfLife gol(30, 30);
     gol.Init();

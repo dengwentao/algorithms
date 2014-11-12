@@ -17,6 +17,8 @@
 		44AA003C1A118866004DEE20 /* LongestIncSeq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AA003B1A118866004DEE20 /* LongestIncSeq.cpp */; };
 		44AA003E1A1192D1004DEE20 /* GameOfLife.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AA003D1A1192D1004DEE20 /* GameOfLife.cpp */; };
 		44AA00401A119B71004DEE20 /* triplets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AA003F1A119B71004DEE20 /* triplets.cpp */; };
+		44AA00421A12966A004DEE20 /* MaxCommonSubString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AA00411A12966A004DEE20 /* MaxCommonSubString.cpp */; };
+		44AA00441A12BD8D004DEE20 /* PathBetweenTwoWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AA00431A12BD8D004DEE20 /* PathBetweenTwoWords.cpp */; };
 		44B0290919B6675E003DFA84 /* Pegs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B0290719B6675E003DFA84 /* Pegs.cpp */; };
 		44B0290C19BE1745003DFA84 /* MergeBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B0290A19BE1745003DFA84 /* MergeBST.cpp */; };
 		44B25EAD19BE4FB000554C90 /* Coins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B25EAB19BE4FB000554C90 /* Coins.cpp */; };
@@ -65,6 +67,8 @@
 		44AA003B1A118866004DEE20 /* LongestIncSeq.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LongestIncSeq.cpp; sourceTree = "<group>"; };
 		44AA003D1A1192D1004DEE20 /* GameOfLife.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameOfLife.cpp; sourceTree = "<group>"; };
 		44AA003F1A119B71004DEE20 /* triplets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = triplets.cpp; sourceTree = "<group>"; };
+		44AA00411A12966A004DEE20 /* MaxCommonSubString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaxCommonSubString.cpp; sourceTree = "<group>"; };
+		44AA00431A12BD8D004DEE20 /* PathBetweenTwoWords.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PathBetweenTwoWords.cpp; sourceTree = "<group>"; };
 		44B0290719B6675E003DFA84 /* Pegs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pegs.cpp; sourceTree = "<group>"; };
 		44B0290819B6675E003DFA84 /* Pegs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pegs.h; sourceTree = "<group>"; };
 		44B0290A19BE1745003DFA84 /* MergeBST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeBST.cpp; sourceTree = "<group>"; };
@@ -163,6 +167,8 @@
 				44D79B011A0813510001BF1B /* MaxSubMatrix.cpp */,
 				44AA003B1A118866004DEE20 /* LongestIncSeq.cpp */,
 				44AA003D1A1192D1004DEE20 /* GameOfLife.cpp */,
+				44AA00411A12966A004DEE20 /* MaxCommonSubString.cpp */,
+				44AA00431A12BD8D004DEE20 /* PathBetweenTwoWords.cpp */,
 			);
 			path = algorithms;
 			sourceTree = "<group>";
@@ -229,6 +235,7 @@
 				44CDEED519C7891A0091605A /* BiTreeEdges.cpp in Sources */,
 				445A52771995897B00491393 /* NDistinct.cpp in Sources */,
 				44AA003E1A1192D1004DEE20 /* GameOfLife.cpp in Sources */,
+				44AA00421A12966A004DEE20 /* MaxCommonSubString.cpp in Sources */,
 				44D79B001A0707170001BF1B /* CountWords.cpp in Sources */,
 				44D79AF41A01680B0001BF1B /* IsRepeated.cpp in Sources */,
 				448E4B9D1995885B001C72CE /* main.cpp in Sources */,
@@ -239,6 +246,7 @@
 				44CDEED219C767CA0091605A /* Maze.cpp in Sources */,
 				44D79AFA1A05A9780001BF1B /* RotateArray.cpp in Sources */,
 				44B0290919B6675E003DFA84 /* Pegs.cpp in Sources */,
+				44AA00441A12BD8D004DEE20 /* PathBetweenTwoWords.cpp in Sources */,
 				44B0290C19BE1745003DFA84 /* MergeBST.cpp in Sources */,
 				44D79B021A0813510001BF1B /* MaxSubMatrix.cpp in Sources */,
 				44A99FB01A0001EF000314DA /* MedianOf2.cpp in Sources */,
