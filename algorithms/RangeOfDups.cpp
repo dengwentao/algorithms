@@ -26,6 +26,7 @@ int Position(int p, int q, int v, bool front)
         else
             return -1; //not found
     }
+    //we need this to avoid stuck when p and q are neighbors. That's because we don't have med+1 or med-1 from some conditions.
     if(p+1==q)
     {
         if(R[p]==v&&(front||(!front&&R[q]!=v)))
@@ -49,8 +50,9 @@ int Position(int p, int q, int v, bool front)
     }
 }
 
-int main()
+int mainDups()
 {
     cout << Position(0, size-1, 3, true) << endl;
     cout << Position(0, size-1, 3, false) << endl;
+    return 0;
 }

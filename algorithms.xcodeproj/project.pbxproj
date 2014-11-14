@@ -20,6 +20,10 @@
 		44AA00421A12966A004DEE20 /* MaxCommonSubString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AA00411A12966A004DEE20 /* MaxCommonSubString.cpp */; };
 		44AA00441A12BD8D004DEE20 /* PathBetweenTwoWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AA00431A12BD8D004DEE20 /* PathBetweenTwoWords.cpp */; };
 		44AA00461A12EABB004DEE20 /* RangeOfDups.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AA00451A12EABB004DEE20 /* RangeOfDups.cpp */; };
+		44AA00481A141640004DEE20 /* CountAndSay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AA00471A14163F004DEE20 /* CountAndSay.cpp */; };
+		44AA004A1A1520BA004DEE20 /* MinStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AA00491A1520BA004DEE20 /* MinStack.cpp */; };
+		44AA004C1A158789004DEE20 /* TriSumClosest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AA004B1A158789004DEE20 /* TriSumClosest.cpp */; };
+		44AA004E1A15CA03004DEE20 /* JointOfCyclic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AA004D1A15CA03004DEE20 /* JointOfCyclic.cpp */; };
 		44B0290919B6675E003DFA84 /* Pegs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B0290719B6675E003DFA84 /* Pegs.cpp */; };
 		44B0290C19BE1745003DFA84 /* MergeBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B0290A19BE1745003DFA84 /* MergeBST.cpp */; };
 		44B25EAD19BE4FB000554C90 /* Coins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B25EAB19BE4FB000554C90 /* Coins.cpp */; };
@@ -71,6 +75,10 @@
 		44AA00411A12966A004DEE20 /* MaxCommonSubString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaxCommonSubString.cpp; sourceTree = "<group>"; };
 		44AA00431A12BD8D004DEE20 /* PathBetweenTwoWords.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PathBetweenTwoWords.cpp; sourceTree = "<group>"; };
 		44AA00451A12EABB004DEE20 /* RangeOfDups.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RangeOfDups.cpp; sourceTree = "<group>"; };
+		44AA00471A14163F004DEE20 /* CountAndSay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CountAndSay.cpp; sourceTree = "<group>"; };
+		44AA00491A1520BA004DEE20 /* MinStack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinStack.cpp; sourceTree = "<group>"; };
+		44AA004B1A158789004DEE20 /* TriSumClosest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TriSumClosest.cpp; sourceTree = "<group>"; };
+		44AA004D1A15CA03004DEE20 /* JointOfCyclic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JointOfCyclic.cpp; sourceTree = "<group>"; };
 		44B0290719B6675E003DFA84 /* Pegs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pegs.cpp; sourceTree = "<group>"; };
 		44B0290819B6675E003DFA84 /* Pegs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pegs.h; sourceTree = "<group>"; };
 		44B0290A19BE1745003DFA84 /* MergeBST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeBST.cpp; sourceTree = "<group>"; };
@@ -172,6 +180,10 @@
 				44AA00411A12966A004DEE20 /* MaxCommonSubString.cpp */,
 				44AA00431A12BD8D004DEE20 /* PathBetweenTwoWords.cpp */,
 				44AA00451A12EABB004DEE20 /* RangeOfDups.cpp */,
+				44AA00471A14163F004DEE20 /* CountAndSay.cpp */,
+				44AA00491A1520BA004DEE20 /* MinStack.cpp */,
+				44AA004B1A158789004DEE20 /* TriSumClosest.cpp */,
+				44AA004D1A15CA03004DEE20 /* JointOfCyclic.cpp */,
 			);
 			path = algorithms;
 			sourceTree = "<group>";
@@ -230,12 +242,15 @@
 				44AA00401A119B71004DEE20 /* triplets.cpp in Sources */,
 				44722F7319ACFBF7000ADA4D /* PrintDiag.cpp in Sources */,
 				445A527A19958AEC00491393 /* RainWater.cpp in Sources */,
+				44AA004E1A15CA03004DEE20 /* JointOfCyclic.cpp in Sources */,
 				44D79AFE1A06FBF50001BF1B /* BiTreeNodeNext.cpp in Sources */,
 				44CDEECF19C0B9F30091605A /* MaxGapIncr.cpp in Sources */,
 				44AA003C1A118866004DEE20 /* LongestIncSeq.cpp in Sources */,
 				44D79AF61A02C3BF0001BF1B /* NextBiggerNode.cpp in Sources */,
 				44CDEED819CB989C0091605A /* CloneGraph.cpp in Sources */,
 				44CDEED519C7891A0091605A /* BiTreeEdges.cpp in Sources */,
+				44AA004A1A1520BA004DEE20 /* MinStack.cpp in Sources */,
+				44AA00481A141640004DEE20 /* CountAndSay.cpp in Sources */,
 				445A52771995897B00491393 /* NDistinct.cpp in Sources */,
 				44AA003E1A1192D1004DEE20 /* GameOfLife.cpp in Sources */,
 				44AA00421A12966A004DEE20 /* MaxCommonSubString.cpp in Sources */,
@@ -258,6 +273,7 @@
 				44722F7619AD2EDB000ADA4D /* Parenthesis.cpp in Sources */,
 				44AA00461A12EABB004DEE20 /* RangeOfDups.cpp in Sources */,
 				44D583F519CCF856005A6CFD /* Painter.cpp in Sources */,
+				44AA004C1A158789004DEE20 /* TriSumClosest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

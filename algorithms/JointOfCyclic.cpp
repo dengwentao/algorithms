@@ -48,7 +48,7 @@ public:
         //no cyclic
         if(p==0 || q==0)
             return NULL;
-
+        
         //count cyclic length
         int cycle = 0;
         do
@@ -75,13 +75,13 @@ public:
     }
 };
 
-int main()
+int mainJoint()
 {
     ListNode* list = new ListNode(1);
     list->next = new ListNode(2);
     list->next->next = new ListNode(3);
     list->next->next->next = new ListNode(4);
-    list->next->next->next->next = 0;
+    list->next->next->next->next = list;
     Solution sol;
     ListNode* pJoint = sol.detectCycle(list);
     if(pJoint)
