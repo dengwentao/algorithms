@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		442E7D571A16FFA600AE9D9C /* MinRotatedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 442E7D561A16FFA600AE9D9C /* MinRotatedArray.cpp */; };
 		445A52771995897B00491393 /* NDistinct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 445A52751995897B00491393 /* NDistinct.cpp */; };
 		445A527A19958AEC00491393 /* RainWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 445A527819958AEC00491393 /* RainWater.cpp */; };
 		44722F7319ACFBF7000ADA4D /* PrintDiag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44722F7119ACFBF7000ADA4D /* PrintDiag.cpp */; };
@@ -24,6 +25,7 @@
 		44AA004A1A1520BA004DEE20 /* MinStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AA00491A1520BA004DEE20 /* MinStack.cpp */; };
 		44AA004C1A158789004DEE20 /* TriSumClosest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AA004B1A158789004DEE20 /* TriSumClosest.cpp */; };
 		44AA004E1A15CA03004DEE20 /* JointOfCyclic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AA004D1A15CA03004DEE20 /* JointOfCyclic.cpp */; };
+		44AA00501A169250004DEE20 /* MaxPointsOnLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AA004F1A169250004DEE20 /* MaxPointsOnLine.cpp */; };
 		44B0290919B6675E003DFA84 /* Pegs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B0290719B6675E003DFA84 /* Pegs.cpp */; };
 		44B0290C19BE1745003DFA84 /* MergeBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B0290A19BE1745003DFA84 /* MergeBST.cpp */; };
 		44B25EAD19BE4FB000554C90 /* Coins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B25EAB19BE4FB000554C90 /* Coins.cpp */; };
@@ -57,6 +59,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		442E7D561A16FFA600AE9D9C /* MinRotatedArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinRotatedArray.cpp; sourceTree = "<group>"; };
 		445A52751995897B00491393 /* NDistinct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NDistinct.cpp; sourceTree = "<group>"; };
 		445A52761995897B00491393 /* NDistinct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDistinct.h; sourceTree = "<group>"; };
 		445A527819958AEC00491393 /* RainWater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RainWater.cpp; sourceTree = "<group>"; };
@@ -79,6 +82,7 @@
 		44AA00491A1520BA004DEE20 /* MinStack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinStack.cpp; sourceTree = "<group>"; };
 		44AA004B1A158789004DEE20 /* TriSumClosest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TriSumClosest.cpp; sourceTree = "<group>"; };
 		44AA004D1A15CA03004DEE20 /* JointOfCyclic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JointOfCyclic.cpp; sourceTree = "<group>"; };
+		44AA004F1A169250004DEE20 /* MaxPointsOnLine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaxPointsOnLine.cpp; sourceTree = "<group>"; };
 		44B0290719B6675E003DFA84 /* Pegs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pegs.cpp; sourceTree = "<group>"; };
 		44B0290819B6675E003DFA84 /* Pegs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pegs.h; sourceTree = "<group>"; };
 		44B0290A19BE1745003DFA84 /* MergeBST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeBST.cpp; sourceTree = "<group>"; };
@@ -184,6 +188,8 @@
 				44AA00491A1520BA004DEE20 /* MinStack.cpp */,
 				44AA004B1A158789004DEE20 /* TriSumClosest.cpp */,
 				44AA004D1A15CA03004DEE20 /* JointOfCyclic.cpp */,
+				44AA004F1A169250004DEE20 /* MaxPointsOnLine.cpp */,
+				442E7D561A16FFA600AE9D9C /* MinRotatedArray.cpp */,
 			);
 			path = algorithms;
 			sourceTree = "<group>";
@@ -247,6 +253,7 @@
 				44CDEECF19C0B9F30091605A /* MaxGapIncr.cpp in Sources */,
 				44AA003C1A118866004DEE20 /* LongestIncSeq.cpp in Sources */,
 				44D79AF61A02C3BF0001BF1B /* NextBiggerNode.cpp in Sources */,
+				44AA00501A169250004DEE20 /* MaxPointsOnLine.cpp in Sources */,
 				44CDEED819CB989C0091605A /* CloneGraph.cpp in Sources */,
 				44CDEED519C7891A0091605A /* BiTreeEdges.cpp in Sources */,
 				44AA004A1A1520BA004DEE20 /* MinStack.cpp in Sources */,
@@ -261,6 +268,7 @@
 				44D583F319CCDBF1005A6CFD /* test.cpp in Sources */,
 				44A99FAE19F9AFBE000314DA /* painters2.cpp in Sources */,
 				44D79AFC1A06D5760001BF1B /* IntersectSortedArrays.cpp in Sources */,
+				442E7D571A16FFA600AE9D9C /* MinRotatedArray.cpp in Sources */,
 				44CDEED219C767CA0091605A /* Maze.cpp in Sources */,
 				44D79AFA1A05A9780001BF1B /* RotateArray.cpp in Sources */,
 				44B0290919B6675E003DFA84 /* Pegs.cpp in Sources */,

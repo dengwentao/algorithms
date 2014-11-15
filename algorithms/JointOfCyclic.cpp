@@ -15,9 +15,6 @@
 using namespace std;
 #include <assert.h>
 
-#include <stdio.h>
-#include <stdlib.h>
-
 struct ListNode {
     int val;
     ListNode *next;

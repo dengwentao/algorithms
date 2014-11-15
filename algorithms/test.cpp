@@ -75,7 +75,7 @@ public:
     }
 };
 
-int main()
+int mainTest()
 {
     ListNode* list = new ListNode(1);
     list->next = new ListNode(2);
