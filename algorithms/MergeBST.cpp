@@ -16,10 +16,10 @@ using namespace std;
 
 struct Node
 {
-    Node* pLeft;
+    Node* pL;
     Node* pRight;
     int value;
-    Node(int v){value = v; pLeft=pRight=0;};
+    Node(int v){value = v; pL=pRight=0;};
 };
 
 class Bst
@@ -38,7 +38,7 @@ int Bst::getNext()
     while(m_pRoot)
     {
         m_Stack.push(m_pRoot);
-        m_pRoot = m_pRoot->pLeft;
+        m_pRoot = m_pRoot->pL;
     }
     if(m_Stack.empty())
         return -1;
@@ -53,22 +53,22 @@ int Bst::getNext()
 int mainBST()
 {
     Node* pRoot = new Node(11);
-    pRoot->pLeft = new Node(7);
+    pRoot->pL = new Node(7);
     pRoot->pRight = new Node(16);
-    pRoot->pLeft->pLeft = new Node(3);
-    pRoot->pLeft->pRight = new Node(8);
-    pRoot->pRight->pLeft = new Node(13);
+    pRoot->pL->pL = new Node(3);
+    pRoot->pL->pRight = new Node(8);
+    pRoot->pRight->pL = new Node(13);
     pRoot->pRight->pRight = new Node(19);
     Bst bst1(pRoot);
     
     Node* pR = new Node(14);
-    pR->pLeft = new Node(13);
+    pR->pL = new Node(13);
     pR->pRight = new Node(16);
-    pR->pLeft->pLeft = new Node(10);
-    pR->pLeft->pLeft->pRight = new Node(12);
-    pR->pLeft->pLeft->pRight->pLeft = new Node(11);
+    pR->pL->pL = new Node(10);
+    pR->pL->pL->pRight = new Node(12);
+    pR->pL->pL->pRight->pL = new Node(11);
     pR->pRight->pRight = new Node(20);
-    pR->pRight->pRight->pLeft = new Node(18);
+    pR->pRight->pRight->pL = new Node(18);
     Bst bst2(pR);
     
     int v1 = bst1.getNext();

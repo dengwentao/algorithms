@@ -17,10 +17,10 @@ using namespace std;
 
 struct Node
 {
-    Node* pLeft;
+    Node* pL;
     Node* pRight;
     int value;
-    Node(int v){value = v; pLeft=pRight=0;};
+    Node(int v){value = v; pL=pRight=0;};
 };
 
 //Find the tree here
@@ -28,23 +28,23 @@ struct Node
 Node* initTree()
 {
     Node* pRoot = new Node(28);
-    pRoot->pLeft = new Node(4);
+    pRoot->pL = new Node(4);
     pRoot->pRight = new Node(69);
-    pRoot->pLeft->pRight = new Node(8);
-    pRoot->pRight->pLeft = new Node(56);
-    pRoot->pLeft->pRight->pLeft = new Node(7);
-    pRoot->pLeft->pRight->pRight = new Node(12);
-    pRoot->pRight->pLeft->pLeft = new Node(34);
-    pRoot->pRight->pLeft->pRight = new Node(27);
-    pRoot->pLeft->pRight->pLeft->pLeft = new Node(5);
-    pRoot->pLeft->pRight->pRight->pRight = new Node(13);
-    pRoot->pRight->pLeft->pLeft->pLeft = new Node(2);
-    pRoot->pRight->pLeft->pRight->pLeft = new Node(3);
-    pRoot->pRight->pLeft->pRight->pRight = new Node(39);
-    pRoot->pLeft->pRight->pLeft->pLeft->pRight = new Node(6);
-    pRoot->pLeft->pRight->pRight->pRight->pLeft = new Node(11);
-    pRoot->pRight->pLeft->pLeft->pLeft->pLeft = new Node(10);
-    pRoot->pRight->pLeft->pRight->pLeft->pLeft = new Node(9);
+    pRoot->pL->pRight = new Node(8);
+    pRoot->pRight->pL = new Node(56);
+    pRoot->pL->pRight->pL = new Node(7);
+    pRoot->pL->pRight->pRight = new Node(12);
+    pRoot->pRight->pL->pL = new Node(34);
+    pRoot->pRight->pL->pRight = new Node(27);
+    pRoot->pL->pRight->pL->pL = new Node(5);
+    pRoot->pL->pRight->pRight->pRight = new Node(13);
+    pRoot->pRight->pL->pL->pL = new Node(2);
+    pRoot->pRight->pL->pRight->pL = new Node(3);
+    pRoot->pRight->pL->pRight->pRight = new Node(39);
+    pRoot->pL->pRight->pL->pL->pRight = new Node(6);
+    pRoot->pL->pRight->pRight->pRight->pL = new Node(11);
+    pRoot->pRight->pL->pL->pL->pL = new Node(10);
+    pRoot->pRight->pL->pRight->pL->pL = new Node(9);
     
     return pRoot;
 }
@@ -52,22 +52,22 @@ Node* initTree()
 void PreTrav(Node* pRoot, bool leftEdge)
 {
     assert(pRoot);
-    if(leftEdge || !pRoot->pLeft && !pRoot->pRight)
+    if(leftEdge || !pRoot->pL && !pRoot->pRight)
         cout << pRoot->value << ' ';
-    if(pRoot->pLeft)
-        PreTrav(pRoot->pLeft, leftEdge);
+    if(pRoot->pL)
+        PreTrav(pRoot->pL, leftEdge);
     if(pRoot->pRight)
-        PreTrav(pRoot->pRight, leftEdge && !pRoot->pLeft);
+        PreTrav(pRoot->pRight, leftEdge && !pRoot->pL);
 }
 
 void PostTrav(Node* pRoot, bool rightEdge)
 {
     assert(pRoot);
-    if(pRoot->pLeft)
-        PostTrav(pRoot->pLeft, rightEdge && !pRoot->pRight);
+    if(pRoot->pL)
+        PostTrav(pRoot->pL, rightEdge && !pRoot->pRight);
     if(pRoot->pRight)
         PostTrav(pRoot->pRight, rightEdge);
-    if(rightEdge || !pRoot->pLeft && !pRoot->pRight)
+    if(rightEdge || !pRoot->pL && !pRoot->pRight)
         cout << pRoot->value << ' ';
 }
 
@@ -75,8 +75,8 @@ int mainEdge()
 {
     Node* pRoot = initTree();
     cout << pRoot->value << ' ';
-    if(pRoot->pLeft)
-        PreTrav(pRoot->pLeft, true);
+    if(pRoot->pL)
+        PreTrav(pRoot->pL, true);
     if(pRoot->pRight)
         PostTrav(pRoot->pRight, true);
     return 0;

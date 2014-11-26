@@ -12,11 +12,11 @@ using namespace std;
 
 struct Node
 {
-    Node* pLeft;
+    Node* pL;
     Node* pRight;
     int value;
     Node* pNext;
-    Node(int v){value = v; pLeft=pRight=0;};
+    Node(int v){value = v; pL=pRight=0;};
 };
 
 //Find the tree here
@@ -24,23 +24,23 @@ struct Node
 Node* initTreeNodes()
 {
     Node* pRoot = new Node(28);
-    pRoot->pLeft = new Node(4);
+    pRoot->pL = new Node(4);
     pRoot->pRight = new Node(69);
-    pRoot->pLeft->pRight = new Node(8);
-    pRoot->pRight->pLeft = new Node(56);
-    pRoot->pLeft->pRight->pLeft = new Node(7);
-    pRoot->pLeft->pRight->pRight = new Node(12);
-    pRoot->pRight->pLeft->pLeft = new Node(34);
-    pRoot->pRight->pLeft->pRight = new Node(27);
-    pRoot->pLeft->pRight->pLeft->pLeft = new Node(5);
-    pRoot->pLeft->pRight->pRight->pRight = new Node(13);
-    pRoot->pRight->pLeft->pLeft->pLeft = new Node(2);
-    pRoot->pRight->pLeft->pRight->pLeft = new Node(3);
-    pRoot->pRight->pLeft->pRight->pRight = new Node(39);
-    pRoot->pLeft->pRight->pLeft->pLeft->pRight = new Node(6);
-    pRoot->pLeft->pRight->pRight->pRight->pLeft = new Node(11);
-    pRoot->pRight->pLeft->pLeft->pLeft->pLeft = new Node(10);
-    pRoot->pRight->pLeft->pRight->pLeft->pLeft = new Node(9);
+    pRoot->pL->pRight = new Node(8);
+    pRoot->pRight->pL = new Node(56);
+    pRoot->pL->pRight->pL = new Node(7);
+    pRoot->pL->pRight->pRight = new Node(12);
+    pRoot->pRight->pL->pL = new Node(34);
+    pRoot->pRight->pL->pRight = new Node(27);
+    pRoot->pL->pRight->pL->pL = new Node(5);
+    pRoot->pL->pRight->pRight->pRight = new Node(13);
+    pRoot->pRight->pL->pL->pL = new Node(2);
+    pRoot->pRight->pL->pRight->pL = new Node(3);
+    pRoot->pRight->pL->pRight->pRight = new Node(39);
+    pRoot->pL->pRight->pL->pL->pRight = new Node(6);
+    pRoot->pL->pRight->pRight->pRight->pL = new Node(11);
+    pRoot->pRight->pL->pL->pL->pL = new Node(10);
+    pRoot->pRight->pL->pRight->pL->pL = new Node(9);
     
     return pRoot;
 }
@@ -52,8 +52,8 @@ void PopulateNext(Node* pRoot, int level, Node* head[])
     head[level] = pRoot;
     if(pRoot->pRight)
         PopulateNext(pRoot->pRight, level+1, head);
-    if(pRoot->pLeft)
-        PopulateNext(pRoot->pLeft, level+1, head);
+    if(pRoot->pL)
+        PopulateNext(pRoot->pL, level+1, head);
 }
 
 int mainBiNext()

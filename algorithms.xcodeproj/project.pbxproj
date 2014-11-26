@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		442E7D571A16FFA600AE9D9C /* MinRotatedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 442E7D561A16FFA600AE9D9C /* MinRotatedArray.cpp */; };
+		442E7D591A1E7F5700AE9D9C /* MaxProd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 442E7D581A1E7F5700AE9D9C /* MaxProd.cpp */; };
+		442E7D5B1A1E87B100AE9D9C /* RemoveNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 442E7D5A1A1E87B100AE9D9C /* RemoveNode.cpp */; };
+		442E7D5D1A22BB9C00AE9D9C /* SortLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 442E7D5C1A22BB9C00AE9D9C /* SortLinkedList.cpp */; };
 		445A52771995897B00491393 /* NDistinct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 445A52751995897B00491393 /* NDistinct.cpp */; };
 		445A527A19958AEC00491393 /* RainWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 445A527819958AEC00491393 /* RainWater.cpp */; };
 		44722F7319ACFBF7000ADA4D /* PrintDiag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44722F7119ACFBF7000ADA4D /* PrintDiag.cpp */; };
@@ -60,6 +63,9 @@
 
 /* Begin PBXFileReference section */
 		442E7D561A16FFA600AE9D9C /* MinRotatedArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinRotatedArray.cpp; sourceTree = "<group>"; };
+		442E7D581A1E7F5700AE9D9C /* MaxProd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaxProd.cpp; sourceTree = "<group>"; };
+		442E7D5A1A1E87B100AE9D9C /* RemoveNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveNode.cpp; sourceTree = "<group>"; };
+		442E7D5C1A22BB9C00AE9D9C /* SortLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortLinkedList.cpp; sourceTree = "<group>"; };
 		445A52751995897B00491393 /* NDistinct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NDistinct.cpp; sourceTree = "<group>"; };
 		445A52761995897B00491393 /* NDistinct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDistinct.h; sourceTree = "<group>"; };
 		445A527819958AEC00491393 /* RainWater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RainWater.cpp; sourceTree = "<group>"; };
@@ -190,6 +196,9 @@
 				44AA004D1A15CA03004DEE20 /* JointOfCyclic.cpp */,
 				44AA004F1A169250004DEE20 /* MaxPointsOnLine.cpp */,
 				442E7D561A16FFA600AE9D9C /* MinRotatedArray.cpp */,
+				442E7D581A1E7F5700AE9D9C /* MaxProd.cpp */,
+				442E7D5A1A1E87B100AE9D9C /* RemoveNode.cpp */,
+				442E7D5C1A22BB9C00AE9D9C /* SortLinkedList.cpp */,
 			);
 			path = algorithms;
 			sourceTree = "<group>";
@@ -275,11 +284,14 @@
 				44AA00441A12BD8D004DEE20 /* PathBetweenTwoWords.cpp in Sources */,
 				44B0290C19BE1745003DFA84 /* MergeBST.cpp in Sources */,
 				44D79B021A0813510001BF1B /* MaxSubMatrix.cpp in Sources */,
+				442E7D5D1A22BB9C00AE9D9C /* SortLinkedList.cpp in Sources */,
 				44A99FB01A0001EF000314DA /* MedianOf2.cpp in Sources */,
 				44B25EAD19BE4FB000554C90 /* Coins.cpp in Sources */,
 				44B25EB019BE70BB00554C90 /* LargestBST.cpp in Sources */,
+				442E7D5B1A1E87B100AE9D9C /* RemoveNode.cpp in Sources */,
 				44722F7619AD2EDB000ADA4D /* Parenthesis.cpp in Sources */,
 				44AA00461A12EABB004DEE20 /* RangeOfDups.cpp in Sources */,
+				442E7D591A1E7F5700AE9D9C /* MaxProd.cpp in Sources */,
 				44D583F519CCF856005A6CFD /* Painter.cpp in Sources */,
 				44AA004C1A158789004DEE20 /* TriSumClosest.cpp in Sources */,
 			);

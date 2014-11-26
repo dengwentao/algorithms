@@ -15,10 +15,10 @@ using namespace std;
 
 struct Node
 {
-    Node* pLeft;
+    Node* pL;
     Node* pRight;
     int value;
-    Node(int v){value=v; pLeft=pRight=0;};
+    Node(int v){value=v; pL=pRight=0;};
 };
 
 // count how many nodes are in this BST (may not include all descendents)
@@ -31,7 +31,7 @@ int countBst(Node* pRoot, int min, int max)
     if(pRoot->value>=min && pRoot->value<=max)
     {
         count ++;
-        count += countBst(pRoot->pLeft, min, pRoot->value);
+        count += countBst(pRoot->pL, min, pRoot->value);
         count += countBst(pRoot->pRight, pRoot->value, max);
         if(count>MAX_COUNT)
             MAX_COUNT = count;
@@ -60,7 +60,7 @@ bool isBst(Node* pRoot, int& min, int& max, int& count)
     int lMin=0, lMax=0, rMin=0, rMax=0, lCount=0, rCount=0;
     lMin = lMax = rMin = rMax = pRoot->value;
     // we cannot use && to shortcut because largest subtree could be on either side.
-    bool bLeft = isBst(pRoot->pLeft, lMin, lMax, lCount);
+    bool bLeft = isBst(pRoot->pL, lMin, lMax, lCount);
     bool bRight = isBst(pRoot->pRight, rMin, rMax, rCount);
     if(bLeft && bRight && pRoot->value >= lMax && pRoot->value <= rMin)
     {
@@ -84,15 +84,15 @@ bool isBst(Node* pRoot, int& min, int& max, int& count)
 int mainLargetBST()
 {
     Node* pRoot = new Node(15);
-    pRoot->pLeft = new Node(10);
+    pRoot->pL = new Node(10);
     pRoot->pRight = new Node(20);
-    pRoot->pLeft->pLeft = new Node(6);
-    pRoot->pLeft->pRight = new Node(7);
-    pRoot->pLeft->pRight->pLeft = new Node(2);
-    pRoot->pLeft->pRight->pLeft->pLeft = new Node(0);
-    pRoot->pLeft->pRight->pLeft->pRight = new Node(8);
-    pRoot->pLeft->pRight->pRight = new Node(5);
-    pRoot->pLeft->pRight->pRight->pLeft = new Node(3);
+    pRoot->pL->pL = new Node(6);
+    pRoot->pL->pRight = new Node(7);
+    pRoot->pL->pRight->pL = new Node(2);
+    pRoot->pL->pRight->pL->pL = new Node(0);
+    pRoot->pL->pRight->pL->pRight = new Node(8);
+    pRoot->pL->pRight->pRight = new Node(5);
+    pRoot->pL->pRight->pRight->pL = new Node(3);
     
     countBst(pRoot, INT_MIN, INT_MAX);
     cout << "Root total count is " << MAX_COUNT << endl;

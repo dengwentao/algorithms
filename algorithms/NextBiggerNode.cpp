@@ -14,10 +14,10 @@ using namespace std;
 
 struct Node
 {
-    Node* pLeft;
+    Node* pL;
     Node* pRight;
     int value;
-    Node(int v){value = v; pLeft=pRight=0;};
+    Node(int v){value = v; pL=pRight=0;};
 };
 
 class Bst
@@ -45,7 +45,7 @@ int Bst::Trav(Node* pNode, int v, int min, int max)
     if(pNode->value < v)
         return Trav(pNode->pRight, v, pNode->value, max);
     else if(pNode->value > v)
-        return Trav(pNode->pLeft, v, min, pNode->value);
+        return Trav(pNode->pL, v, min, pNode->value);
     else
     {
         if(pNode->pRight==0)
@@ -58,20 +58,20 @@ int Bst::Trav(Node* pNode, int v, int min, int max)
 
 int Bst::InOrderFirst(Node* pNode)
 {
-    if(pNode->pLeft==0 )
+    if(pNode->pL==0 )
         return pNode->value;
     else
-        return InOrderFirst(pNode->pLeft);
+        return InOrderFirst(pNode->pL);
 }
 
 int mainNextBig()
 {
     Node* pRoot = new Node(11);
-    pRoot->pLeft = new Node(7);
+    pRoot->pL = new Node(7);
     pRoot->pRight = new Node(16);
-    pRoot->pLeft->pLeft = new Node(3);
-    pRoot->pLeft->pRight = new Node(8);
-    pRoot->pRight->pLeft = new Node(13);
+    pRoot->pL->pL = new Node(3);
+    pRoot->pL->pRight = new Node(8);
+    pRoot->pRight->pL = new Node(13);
     pRoot->pRight->pRight = new Node(19);
     Bst bst(pRoot);
     cout << bst.NextBigger(9)<< endl;

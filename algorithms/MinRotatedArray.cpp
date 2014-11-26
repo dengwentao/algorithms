@@ -91,7 +91,7 @@ int FindTarget(const vector<int>& v, int low, int high, int target)
 
 //////////////////
 
-int main()
+int mainRotate()
 {
     int a[] = {9, 9, 8, 8, 8, 9};
     vector<int> v(a, a+sizeof(a)/sizeof(a[0]));
