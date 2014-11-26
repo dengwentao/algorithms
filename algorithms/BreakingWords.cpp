@@ -1,8 +1,8 @@
 //
-//  test.cpp
+//  BreakingWords.cpp
 //  algorithms
 //
-//  Created by Wentao Deng on 9/19/14.
+//  Created by Wentao Deng on 11/26/14.
 //  Copyright (c) 2014 WENTAO INC. All rights reserved.
 //
 //Given a string s and a dictionary of words dict, add spaces in s to construct a sentence where each word is a valid dictionary word.
@@ -62,7 +62,7 @@ public:
     }
 };
 
-int mainxxx()
+int mainBreak()
 {
     string input = "catsanddog";
     unordered_set<string> dict = {"cat", "cats", "and", "sand", "dog", "catsanddog"};
