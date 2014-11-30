@@ -1,8 +1,8 @@
 //
-//  test.cpp
+//  LongestConsecutiveSequence.cpp
 //  algorithms
 //
-//  Created by Wentao Deng on 9/19/14.
+//  Created by Wentao Deng on 11/30/14.
 //  Copyright (c) 2014 WENTAO INC. All rights reserved.
 //
 // Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
@@ -57,7 +57,7 @@ public:
     }
 };
 
-int main()
+int mainConseq()
 {
     vector<int> num = {5, 0, 100, 4, 200, 1, 1, 3, 2, -1};
     Solution sol;

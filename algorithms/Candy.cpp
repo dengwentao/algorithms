@@ -55,9 +55,10 @@ public:
     }
 };
 
-int main()
+int mainCandy()
 {
     vector<int> ratings = {83, 74, 21, 21, 32, 33, 87, 74, 65, 55, 61, 78, 21, 14, 11};
     Solution sol;
     cout << sol.candy(ratings)<< endl;
+    return 0;
 }
