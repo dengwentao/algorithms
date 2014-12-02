@@ -80,7 +80,7 @@ public:
     }
 };
 
-int main()
+int mainDiseq()
 {
     Solution sol;
     string s = "rabbbit";
