@@ -18,6 +18,7 @@
 		4476FD331A26633400CEF4F2 /* Candy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4476FD321A26633400CEF4F2 /* Candy.cpp */; };
 		4476FD351A26636900CEF4F2 /* BreakingWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4476FD341A26636900CEF4F2 /* BreakingWords.cpp */; };
 		4476FD371A2BABEC00CEF4F2 /* LongestConsecutiveSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4476FD361A2BABEC00CEF4F2 /* LongestConsecutiveSequence.cpp */; };
+		4476FD391A2D3E5F00CEF4F2 /* DistinctSubseq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4476FD381A2D3E5F00CEF4F2 /* DistinctSubseq.cpp */; };
 		448E4B9D1995885B001C72CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 448E4B9C1995885B001C72CE /* main.cpp */; };
 		44A99FAE19F9AFBE000314DA /* painters2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44A99FAD19F9AFBE000314DA /* painters2.cpp */; };
 		44A99FB01A0001EF000314DA /* MedianOf2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44A99FAF1A0001EF000314DA /* MedianOf2.cpp */; };
@@ -80,6 +81,7 @@
 		4476FD321A26633400CEF4F2 /* Candy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Candy.cpp; sourceTree = "<group>"; };
 		4476FD341A26636900CEF4F2 /* BreakingWords.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BreakingWords.cpp; sourceTree = "<group>"; };
 		4476FD361A2BABEC00CEF4F2 /* LongestConsecutiveSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LongestConsecutiveSequence.cpp; sourceTree = "<group>"; };
+		4476FD381A2D3E5F00CEF4F2 /* DistinctSubseq.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DistinctSubseq.cpp; sourceTree = "<group>"; };
 		448E4B991995885B001C72CE /* algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		448E4B9C1995885B001C72CE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		44A99FAD19F9AFBE000314DA /* painters2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = painters2.cpp; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 				4476FD321A26633400CEF4F2 /* Candy.cpp */,
 				4476FD341A26636900CEF4F2 /* BreakingWords.cpp */,
 				4476FD361A2BABEC00CEF4F2 /* LongestConsecutiveSequence.cpp */,
+				4476FD381A2D3E5F00CEF4F2 /* DistinctSubseq.cpp */,
 			);
 			path = algorithms;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				44722F7319ACFBF7000ADA4D /* PrintDiag.cpp in Sources */,
 				445A527A19958AEC00491393 /* RainWater.cpp in Sources */,
 				44AA004E1A15CA03004DEE20 /* JointOfCyclic.cpp in Sources */,
+				4476FD391A2D3E5F00CEF4F2 /* DistinctSubseq.cpp in Sources */,
 				44D79AFE1A06FBF50001BF1B /* BiTreeNodeNext.cpp in Sources */,
 				44CDEECF19C0B9F30091605A /* MaxGapIncr.cpp in Sources */,
 				44AA003C1A118866004DEE20 /* LongestIncSeq.cpp in Sources */,

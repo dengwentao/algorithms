@@ -57,7 +57,7 @@ public:
     }
 };
 
-int mainConseq()
+int mainConseqx()
 {
     vector<int> num = {5, 0, 100, 4, 200, 1, 1, 3, 2, -1};
     Solution sol;
