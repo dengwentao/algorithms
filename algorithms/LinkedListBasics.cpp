@@ -75,7 +75,7 @@ ListNode* Insert(ListNode*& head, int x)
         return head;
 }
 
-int main()
+int mainList()
 {
     ListNode* list = CreateList2();
     ListNode* list1 = Insert(list, 11);
@@ -85,4 +85,5 @@ int main()
     ListNode* list3 = Delete(list2, 0);
     ListNode* list4 = Delete(list3, 11);
     PrintList2(list4);
+    return 0;
 }
