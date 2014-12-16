@@ -28,6 +28,7 @@
 		44A7AEFE1A36895A00AE8DB0 /* TextJustification.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44A7AEFD1A36895A00AE8DB0 /* TextJustification.cpp */; };
 		44A7AF001A37D0CF00AE8DB0 /* SubArriesWithMaxSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44A7AEFF1A37D0CF00AE8DB0 /* SubArriesWithMaxSum.cpp */; };
 		44A7AF021A39261100AE8DB0 /* NormalizePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44A7AF011A39261100AE8DB0 /* NormalizePath.cpp */; };
+		44A7AF041A3D63AE00AE8DB0 /* HighestFreqSubStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44A7AF031A3D63AE00AE8DB0 /* HighestFreqSubStr.cpp */; };
 		44A99FAE19F9AFBE000314DA /* painters2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44A99FAD19F9AFBE000314DA /* painters2.cpp */; };
 		44A99FB01A0001EF000314DA /* MedianOf2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44A99FAF1A0001EF000314DA /* MedianOf2.cpp */; };
 		44AA003C1A118866004DEE20 /* LongestIncSeq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AA003B1A118866004DEE20 /* LongestIncSeq.cpp */; };
@@ -100,6 +101,7 @@
 		44A7AEFD1A36895A00AE8DB0 /* TextJustification.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextJustification.cpp; sourceTree = "<group>"; };
 		44A7AEFF1A37D0CF00AE8DB0 /* SubArriesWithMaxSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SubArriesWithMaxSum.cpp; sourceTree = "<group>"; };
 		44A7AF011A39261100AE8DB0 /* NormalizePath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NormalizePath.cpp; sourceTree = "<group>"; };
+		44A7AF031A3D63AE00AE8DB0 /* HighestFreqSubStr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HighestFreqSubStr.cpp; sourceTree = "<group>"; };
 		44A99FAD19F9AFBE000314DA /* painters2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = painters2.cpp; sourceTree = "<group>"; };
 		44A99FAF1A0001EF000314DA /* MedianOf2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MedianOf2.cpp; sourceTree = "<group>"; };
 		44AA003B1A118866004DEE20 /* LongestIncSeq.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LongestIncSeq.cpp; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 				44A7AEFD1A36895A00AE8DB0 /* TextJustification.cpp */,
 				44A7AEFF1A37D0CF00AE8DB0 /* SubArriesWithMaxSum.cpp */,
 				44A7AF011A39261100AE8DB0 /* NormalizePath.cpp */,
+				44A7AF031A3D63AE00AE8DB0 /* HighestFreqSubStr.cpp */,
 			);
 			path = algorithms;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				44A7AF021A39261100AE8DB0 /* NormalizePath.cpp in Sources */,
 				44AA00421A12966A004DEE20 /* MaxCommonSubString.cpp in Sources */,
 				44D79B001A0707170001BF1B /* CountWords.cpp in Sources */,
+				44A7AF041A3D63AE00AE8DB0 /* HighestFreqSubStr.cpp in Sources */,
 				44D79AF41A01680B0001BF1B /* IsRepeated.cpp in Sources */,
 				44A7AEF61A30EC8700AE8DB0 /* expression.cpp in Sources */,
 				448E4B9D1995885B001C72CE /* main.cpp in Sources */,

@@ -22,48 +22,6 @@ using namespace std;
 #include <assert.h>
 
 
-class Solution {
-public:
-    //empty,dup, neg
-    int longestConsecutive(vector<int> &num) {
-        unordered_set<int> set;
-        for(int n : num)
-            set.insert(n);
-        
-        unordered_map<int, int> map; //maps between number can consequtive length.
-        int max = 0;
-        for(int n : num)
-        {
-            if(map.find(n)!=map.end())
-                continue; //we've already met this.
-            int len = 1;
-            int m = n;
-            while(set.find(++n)!=set.end())
-            {
-                if(map.find(n)!=map.end()) //already in map
-                {
-                    len += map[n];
-                    break;
-                }
-                else
-                    map[n] = ++len;
-            }
-            map[m] = len;
-            if(len>max)
-                max = len;
-        }
-        
-        return max;
-    }
-};
+#include <iostream>
+using namespace std;
 
-
-
-
-int mainTest()
-{
-    vector<int> num = {5, 0, 100, 4, 200, 1, 1, 3, 2, -1};
-    Solution sol;
-    cout << sol.longestConsecutive(num) << endl;
-    return 0;
-}

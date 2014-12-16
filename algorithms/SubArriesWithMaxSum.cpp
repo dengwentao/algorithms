@@ -105,7 +105,7 @@ public:
 };
 
 
-int main()
+int mainSubMax()
 {
     vector<int> nums = {3, -2, 8, -9, 1, 3};//{-1,-2,-3,-100,-1,-50};//{5, 4};//
     int k=3;
